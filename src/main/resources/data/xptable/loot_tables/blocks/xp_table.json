@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "xptable:xp_table",
+          "functions": [
+            {
+              "function": "minecraft:copy_nbt",
+              "source": "block_entity",
+              "ops": [
+                { "source": "Xp", "target": "BlockEntityTag.Xp", "op": "replace" },
+                { "source": "Owner", "target": "BlockEntityTag.Owner", "op": "replace" },
+                { "source": "OwnerName", "target": "BlockEntityTag.OwnerName", "op": "replace" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

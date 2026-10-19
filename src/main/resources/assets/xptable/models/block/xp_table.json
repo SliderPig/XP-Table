@@ -1,0 +1,8 @@
+{   "parent": "minecraft:block/enchanting_table",
+    "textures": {
+        "particle": "xptable:block/xp_table_bottom",
+        "bottom": "xptable:block/xp_table_bottom",
+        "top": "xptable:block/xp_table_top",
+        "side": "xptable:block/xp_table_side"
+    }
+}

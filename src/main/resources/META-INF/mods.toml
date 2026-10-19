@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+authors="SliderPig"
+modId="xptable"
+version="${file.jarVersion}"
+displayName="{C} XP Table"
+description='''
+A green enchanting table that stores XP. No limit, keeps its XP when broken, and can be claimed so only you can use it.
+Needed on the server AND on every player's PC.
+'''
+
+[[dependencies.xptable]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.xptable]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
